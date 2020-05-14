@@ -1,0 +1,232 @@
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #eceef1;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+button {
+  outline: none;
+}
+
+.l-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+/* Login Section */
+.login {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+  margin-right: 2rem;
+}
+.login__info {
+  color: #505050;
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.login__forget {
+  font-size: 1.2rem;
+}
+.login__btn {
+  margin: 0 1rem;
+  background: #0077c5;
+  color: white;
+  width: 10.2rem;
+  height: 3.4rem;
+  justify-content: center;
+  font-size: 1.35rem;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 0.4rem;
+  border: 1px solid #4c4c4c;
+  cursor: pointer;
+}
+.login__btn img {
+  width: 1rem;
+  height: 1.3rem;
+  margin-right: 0.6rem;
+}
+
+/* Logos */
+.main-logo {
+  margin: 3rem 0 2rem 0;
+}
+.main-logo img {
+  display: block;
+  width: 11.8rem;
+  margin: 0 auto;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logos a {
+  margin: 0 0.5rem;
+}
+.logos__icon {
+  width: 2.3rem;
+  margin-right: 0.5rem;
+}
+.logos__text {
+  margin-right: 1rem;
+}
+.logos__text:last-child {
+  margin-right: 0;
+}
+
+/* Signup Form Section */
+.signup-form {
+  width: 38rem;
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  margin: 2rem auto;
+}
+.signup-form__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4c4c4c;
+}
+.signup-form__title {
+  font-size: 2.4rem;
+  margin: 2.5rem 0;
+}
+.signup-form__subtitle {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+}
+.signup-form__subtitle a {
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.signup-form__form {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form__field * {
+  display: block;
+  font-weight: 300;
+}
+.signup-form__field label {
+  font-size: 1.4rem;
+}
+.signup-form__field input {
+  width: 31.6rem;
+  height: 3rem;
+  border-radius: 3px;
+  border: 1px solid #c1c5c8;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  outline: none;
+}
+.signup-form__field input:focus {
+  border: 1px solid #82bbee;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.signup-form__field input:last-of-type {
+  margin-bottom: 3rem;
+}
+
+#standard-call-note {
+  margin-top: -2.5rem;
+  margin-bottom: 3rem;
+}
+
+#password-field {
+  position: relative;
+}
+
+#password-field-icon {
+  width: 2.2rem;
+  position: absolute;
+  top: 6px;
+  right: 5px;
+}
+
+.signup-form__btn {
+  background: #0077c5;
+  color: white;
+  width: 32rem;
+  height: 4.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.57rem;
+  font-weight: 300;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.signup-form__btn img {
+  width: 1.26rem;
+  margin-right: 1rem;
+}
+
+.signup-form__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #757575;
+  line-height: 2.1rem;
+  margin-bottom: 3rem;
+}
+
+.signup-form__captcha {
+  width: 100%;
+  height: 5.3rem;
+  background-color: #eceef1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #8d9096;
+}
+
+/* Footer Section */
+.page-footer {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #505050;
+  margin-bottom: 2rem;
+}
+
+.page-footer__links a {
+  margin-right: 1rem;
+  color: #505050;
+}
+.page-footer__links a:last-of-type {
+  margin-right: 0;
+}
+
+.page-footer__copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
